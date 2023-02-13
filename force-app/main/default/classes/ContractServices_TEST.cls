@@ -28,7 +28,7 @@ public class ContractServices_TEST {
         );
         insert cont;
         RestRequest request = new RestRequest();
-        request.requestURI = 'https://playful-koala-9dah03-dev-ed.lightning.force.com/services/apexrest/ContactServices/' + cont.Id;
+        request.requestURI = 'https://playful-koala-9dah03-dev-ed.lightning.force.com/services/apexrest/ContractServices/' + cont.Id;
         request.httpMethod = 'PATCH';
         request.addHeader('Content-Type', 'application/json');
         request.requestBody = Blob.valueOf('{"Status": "Activated"}');
