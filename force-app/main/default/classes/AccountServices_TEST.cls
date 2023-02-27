@@ -1,7 +1,7 @@
 @isTest
 public class AccountServices_TEST {
     @isTest
-    public static void testPostContact(){
+    public static void testPostAccount(){
         test.startTest();
         Id accId = AccountServices.doPost('testAccount');
         test.stopTest();
@@ -10,7 +10,7 @@ public class AccountServices_TEST {
     }
 
     @isTest
-    public static void testPatchContact(){
+    public static void testPatchAccount(){
         Account acc = new Account(
             Name = 'testAccount'
         );

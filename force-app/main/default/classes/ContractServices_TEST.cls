@@ -1,7 +1,7 @@
 @isTest
 public class ContractServices_TEST {
     @isTest
-    public static void testPostContact(){
+    public static void testPostContract(){
         Account acc = new Account(Name = 'Contract account');
         insert acc;
 
@@ -17,7 +17,7 @@ public class ContractServices_TEST {
     }
 
     @isTest
-    public static void testPatchContact(){
+    public static void testPatchContract(){
         Account acc = new Account(Name = 'Contract account');
         insert acc;
         Contract cont = new Contract(
