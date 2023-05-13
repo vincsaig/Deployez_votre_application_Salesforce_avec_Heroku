@@ -1,10 +1,5 @@
 @RestResource(urlMapping='/ContactServices/*')
 global class ContactServices {
-    global class getContact{
-        String FirstName{get;set;}
-        String LastName{get;set;}
-        String Email{get;set;}
-    }
 
     @HttpPost
     global static String doPost(
